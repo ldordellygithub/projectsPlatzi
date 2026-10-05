@@ -1,1 +1,2 @@
 archivo de  configuracin principal de  prueba  
+cambios desde la rama  de  desarrollo  
