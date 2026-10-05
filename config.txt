@@ -1,3 +1,4 @@
 archivo de  configuracin principal de  prueba
-cambios desde la rama  de  desarrollo  
+cambios desde la rama  de  desarrollo
 
+segundo  cambio desde la rama de desarrollo
