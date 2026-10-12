@@ -21,4 +21,5 @@ Descripción breve del proyecto y su objetivo principal.
 1. Clona el repositorio:
 
 ```bash
-git clone ''
+git clone 'https://github.com/ldordellygithub/projectsPlatzi.git'
+```
