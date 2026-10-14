@@ -16,6 +16,11 @@ Descripción breve del proyecto y su objetivo principal.
 - Git
 - Otra tecnología
 
+##  CLOUD
+
+-AWS
+-GCP 
+
 ## Instalación
 
 1. Clona el repositorio:
