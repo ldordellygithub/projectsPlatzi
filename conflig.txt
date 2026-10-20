@@ -1,3 +1,0 @@
-archivo de   conflicto para  Qa
-
-cambios desde  rama  principal  hasta  la  rama  de  desarrollo

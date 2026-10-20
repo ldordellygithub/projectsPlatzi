@@ -1,4 +1,0 @@
-def starting:
-  print('hello')
-
-
