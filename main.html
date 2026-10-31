@@ -11,6 +11,8 @@
     <!-- Fuente opcional -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
     <!-- Descripción del proyecto -->
     <meta name="description" content="Repositorio de proyectos desarrollados en cursos de Platzi.">
 
@@ -19,14 +21,32 @@
 
     <!-- Header principal -->
     <header>
-        <nav class="navbar">
-            <h1>Projects Platzi</h1>
-            <ul class="nav-links">
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#sobre">Sobre el repositorio</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
+<nav class="navbar">
+      <a href="/" class="brand" aria-label="Projects Platzi, inicio">
+        <svg class="brand-logo" width="32" height="32" viewBox="0 0 32 32" role="img" aria-hidden="true">
+            <defs>
+                <linearGradient id="brandGrad" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#8b5cf6" />
+                    <stop offset="100%" stop-color="#22d3ee" />
+                </linearGradient>
+            </defs>
+            <rect width="32" height="32" rx="8" fill="url(#brandGrad)" />
+            <path d="M10 9h3v9.5a3.5 3.5 0 0 1-7 0H9a.5.5 0 0 1 0-1h3.5a1.5 1.5 0 0 0 1.5-1.5V9z" fill="#fff" />
+            <path d="M18 9h4v4h-4zM18 16h4v4h-4z" fill="#fff" />
+        </svg>
+        <span class="brand-name">Projects Platzi</span>
+    </a>
+      <ul class="nav-links">
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="https://platzi.com" target="_blank" rel="noopener noreferrer">Platzi</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Abrir menú">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </nav>
     </header>
 
     <!-- Sección Hero -->

@@ -175,3 +175,27 @@ a {
         justify-content: center;
     }
 }
+
+
+
+.brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    text-decoration: none;
+}
+
+.brand-logo {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+.brand-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    background: var(--gradiente-acento);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
