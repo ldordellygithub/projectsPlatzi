@@ -19,5 +19,6 @@ buscador.addEventListener('input', () => {
     if (coincide) coincidencias++;
   });
 
-  mensajeVacio.hidden = coincidencias > 0;
+  mensajeVacio.textContent =
+    coincidencias > 0 ? '' : 'No encontramos proyectos con esa búsqueda.';
 });
