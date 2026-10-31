@@ -14,6 +14,12 @@
       rel="stylesheet"
     />
 
+    <!-- Iconos opcionales -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded"
+      rel="stylesheet"
+    />
+
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
     <!-- Descripción del proyecto -->
@@ -54,6 +60,10 @@
           <li><a href="#proyectos">Proyectos</a></li>
           <li><a href="#sobre">Sobre</a></li>
           <li><a href="https://platzi.com" target="_blank" rel="noopener noreferrer">Platzi</a></li>
+          <li class="nav-search">
+            <label for="buscador" class="sr-only">Buscar proyectos</label>
+            <input id="buscador" type="search" placeholder="Buscar proyectos…" autocomplete="off" />
+          </li>
         </ul>
         <button
           type="button"
@@ -95,19 +105,20 @@
 
         <div class="project-list">
           <!-- Proyecto individual -->
-          <article class="project-card">
-            <h3>Nombre del Proyecto</h3>
+          <article class="project-card" data-searchable>
+            <h3>Servidor DNS ROUTER</h3>
             <p>Descripción breve del proyecto, tecnologías usadas y propósito.</p>
             <a href="#" target="_blank" rel="noopener noreferrer">Ver repositorio</a>
           </article>
 
           <!-- Copia y pega más tarjetas según necesites -->
-          <article class="project-card">
-            <h3>Otro Proyecto</h3>
+          <article class="project-card" data-searchable>
+            <h3>Vulnerador LLM C</h3>
             <p>Descripción breve del proyecto.</p>
             <a href="#" target="_blank" rel="noopener noreferrer">Ver repositorio</a>
           </article>
         </div>
+        <p id="sin-resultados" hidden>No encontramos proyectos con esa búsqueda.</p>
       </section>
 
       <!-- Sección sobre el repositorio -->
@@ -117,5 +128,6 @@
       </section>
     </main>
     <script src="app.js"></script>
+    <script src="search.js"></script>
   </body>
 </html>
